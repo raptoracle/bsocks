@@ -7,10 +7,10 @@
     "socks"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bsocks.git",
-  "homepage": "https://github.com/bcoin-org/bsocks",
+  "repository": "git://github.com/raptoracle/bsocks.git",
+  "homepage": "https://github.com/raptoracle/bsocks",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bsocks/issues"
+    "url": "https://github.com/raptoracle/bsocks/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/bsocks.js",
@@ -19,11 +19,11 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "binet": "~0.3.8",
-    "bsert": "~0.0.12"
+    "binet": "git+https://github.com/raptoracle/binet.git#semver:~0.3.9",
+    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13"
   },
   "devDependencies": {
-    "bmocha": "^2.1.8"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0"
   },
   "engines": {
     "node": ">=8.0.0"
